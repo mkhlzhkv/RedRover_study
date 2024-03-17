@@ -73,7 +73,7 @@ car2.car_info()
 car2.set_for_sale(False)
 car2.car_info()
 
-# car3.car_info()
+car3.car_info()
 
 
 set_cars = [car1, car2, car3]
@@ -82,8 +82,8 @@ set_cars = [car1, car2, car3]
 for i in set_cars:
     i.car_info()
 
-# Car.change_adres("В соседнем дворе")
-#
-# set_cars = [car1, car2, car3]
-# for i in set_cars:
-#     i.car_info()
+Car.change_adres("В соседнем дворе")
+
+set_cars = [car1, car2, car3]
+for i in set_cars:
+    i.car_info()
